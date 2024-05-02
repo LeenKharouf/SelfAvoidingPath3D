@@ -2,6 +2,8 @@
 
 [GitHub - LeenKharouf/SelfAvoidingPath3D](https://github.com/LeenKharouf/SelfAvoidingPath3D/tree/main)
 
+[Notion Documentation](https://www.notion.so/Self-avoiding-walk-3D-36d5070da5894a68b44d52ac7995f473?pvs=4)
+
 ## Description:
 
 The project features a 3D self-avoiding walk simulation, like a ‘maze’, with interactive elements such as explosions that affect the path of the walk, multiple agents that do not collide with each other, and dynamic camera controls for a better view of the simulation, and a reset button.
