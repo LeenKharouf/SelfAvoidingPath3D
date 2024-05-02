@@ -91,7 +91,6 @@ Initial user testing indicated the need for a clearer reset mechanism. This led 
 ### 3. Implementing Pathfinding Logic
 
 - **Checking Possible Moves**:
-    - Describe the function that calculates potential moves from a given position, ensuring the move doesn't revisit a position.
     - Calculating potential moves from the agent's current position.
     - A move is *possible* if it's within the **grid's boundaries** and has not been previously **visited**
     - Unique and non-repetitive paths
@@ -112,7 +111,6 @@ Initial user testing indicated the need for a clearer reset mechanism. This led 
 ### 4. Managing Multiple Agents
 
 - **Creating and Managing Agents**:
-    - Explain the initialization of multiple agents, each with a unique ID and starting position.
     - Each agent is initialised with a unique identifier and a random start position.
     - Collision avoidance: marking grid spaces as  `visited`
     
