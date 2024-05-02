@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SelfAvoidingWalk : MonoBehaviour
 {
-    public GameObject cubePrefab; // Assign this in the Unity Editor
+    public GameObject cubePrefab;
     public int gridSize = 10;     // Set the size of the grid
     private int[,,] visited;      // 3D array to keep track of visited positions by agent IDs
     private List<Agent> agents = new List<Agent>(); // List of agents
